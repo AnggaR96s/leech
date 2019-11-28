@@ -56,17 +56,22 @@ foreach($files as $file)
     <td align="right">Columns : </td><td><select name=cs><option value= > 1 </option>
                                                          <option value=2> 2 </option>
                                                          <option value=3> 3 </option>
-                                                         <option value=4 selected> 4 </option>
-                                                         <option value=5> 5 </option></select> x <select name=rs><option value= > 1 </option>
+                                                         <option value=4> 4 </option>
+                                                         <option value=5> 5 </option>
+                                                         <option value=6> 6 </option>
+                                                         <option value=7> 7 </option>
+                                                         <option value=8> 8 </option>
+                                                         <option value=9> 9 </option>
+                                                         <option value=10 selected> 10 </option></select> x <select name=rs><option value= > 1 </option>
                                                                                                                 <option value=2> 2 </option>
                                                                                                                 <option value=3> 3 </option>
                                                                                                                 <option value=4> 4 </option>
-                                                                                                                <option value=5 selected> 5 </option>
+                                                                                                                <option value=5> 5 </option>
                                                                                                                 <option value=6> 6 </option>
                                                                                                                 <option value=7> 7 </option>
                                                                                                                 <option value=8> 8 </option>
                                                                                                                 <option value=9> 9 </option>
-                                                                                                                <option value=10> 10 </option></select> Rows</td>
+                                                                                                                <option value=10 selected> 10 </option></select> Rows</td>
   </tr>
   <tr>
     <td align="right">Width <span class="nav_text" onMouseOver="document.getElementById('help_text2').style.display='block'" onMouseOut="document.getElementById('help_text2').style.display='none'" style="cursor:help"> [*]</span> : </td><td><input type=text name=w size=3 ></td>
@@ -87,8 +92,8 @@ foreach($files as $file)
   </tr>
   <tr>
     <td align="right">Jpeg Quality : </td><td><select name=j><option value=80> Low </option>
-                                                             <option value=90 selected> Normal </option>
-                                                             <option value=100> Right </option></select></td>
+                                                             <option value=90> Normal </option>
+                                                             <option value=100 selected> Right </option></select></td>
   </tr>
   <tr>
     <td align="right">Edge <span class="nav_text" onMouseOver="document.getElementById('help_text5').style.display='block'" onMouseOut="document.getElementById('help_text5').style.display='none'" style="cursor:help"> [?]</span> : </td><td><select name=g><option value=0> Off </option>
