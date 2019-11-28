@@ -1,7 +1,6 @@
 inetutils-tools
 inetutils-ping
 iputils-ping
-aria2
 screen
 git
 https://downloads.rclone.org/v1.50.1/rclone-v1.50.1-linux-amd64.deb
@@ -23,4 +22,3 @@ nodejs
 node-typescript
 libssl1.0-dev
 http://archive.canonical.com/ubuntu/pool/partner/a/adobe-flashplugin/adobe-flashplugin_20191009.1-0ubuntu0.18.04.1_amd64.deb
-ubuntu-restricted-extras
