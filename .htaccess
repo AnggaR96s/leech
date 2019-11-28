@@ -49,6 +49,10 @@ allow from all
 allow from all
 </files>
 
+<files fm.php>
+allow from all
+</files>
+
 <files ~ "^\.">
 deny from all
 </files>
