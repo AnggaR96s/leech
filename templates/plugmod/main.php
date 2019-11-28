@@ -71,6 +71,7 @@ if (!$options['auto_download_disable']) {
 if (!$options['auto_upload_disable']) {
 ?>
 <input class="button-auto" type="button" value="<?php echo lang(335); ?>" onclick="window.open('auul.php');return false;" />
+<input class="button-auto" type="button" value="Video Thumbnails" onclick="window.open('mtn.php');return false;" />
 <?php
 } echo "\n<br />\n";
 if (!$options['notes_disable']) {
