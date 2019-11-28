@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+
+<head>
+   <!-- flowplayer depends on jQuery 1.7.1+ (for now) -->
+   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+   <!-- flowplayer.js -->
+   <script type="text/javascript" src="flowplayer.min.js"></script>
+
+   <!-- player styling -->
+   <link rel="stylesheet" type="text/css" href="flowplayer/minimalist.css">
+
+</head>
+
 <?php
 //setlocale(LC_CTYPE, "en_US.UTF-8");
 define('CONFIG_DIR', 'configs/');
@@ -65,10 +79,7 @@ if (!empty($_REQUEST['file']) || !empty($_REQUEST['fileurl'])) {
 				EmbedWMP($link);
 				break;
 
-			case 'divx':
-			case 'avi':
-			case 'mkv':
-			case 'mp4':
+
 			case 'mov':
 				EmbedDX($link);
 				break;
@@ -76,7 +87,11 @@ if (!empty($_REQUEST['file']) || !empty($_REQUEST['fileurl'])) {
 			case 'webm':
 				EmbedWebM($link);
 				break;
-
+				
+			case 'divx':
+			case 'avi':
+			case 'mkv':
+			case 'mp4':
 			case 'flv':
 				EmbedFLV($link);
 				break;

@@ -1,4 +1,22 @@
 {
-  "name": "Rapidleech",
-  "repository": "https://github.com/Th3-822/rapidleech"
+  "name": "Leech",
+  "repository": "https://github.com/AnggaR96s/Leech",
+  "success_url": "",
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+      },
+     {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+     },
+         {
+      "url": "https://github.com/amivin/aria2-heroku.git"
+     },
+         {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+     },
+    {
+    "url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab.git"
+    }
+    ]
 }
