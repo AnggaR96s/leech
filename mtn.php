@@ -61,8 +61,8 @@ foreach($files as $file)
                                                          <option value=6> 6 </option>
                                                          <option value=7> 7 </option>
                                                          <option value=8> 8 </option>
-                                                         <option value=9> 9 </option>
-                                                         <option value=10 selected> 10 </option></select> x <select name=rs><option value= > 1 </option>
+                                                         <option value=9 selected> 9 </option>
+                                                         <option value=10> 10 </option></select> x <select name=rs><option value= > 1 </option>
                                                                                                                 <option value=2> 2 </option>
                                                                                                                 <option value=3> 3 </option>
                                                                                                                 <option value=4> 4 </option>
@@ -70,8 +70,8 @@ foreach($files as $file)
                                                                                                                 <option value=6> 6 </option>
                                                                                                                 <option value=7> 7 </option>
                                                                                                                 <option value=8> 8 </option>
-                                                                                                                <option value=9> 9 </option>
-                                                                                                                <option value=10 selected> 10 </option></select> Rows</td>
+                                                                                                                <option value=9 selected> 9 </option>
+                                                                                                                <option value=10> 10 </option></select> Rows</td>
   </tr>
   <tr>
     <td align="right">Width <span class="nav_text" onMouseOver="document.getElementById('help_text2').style.display='block'" onMouseOut="document.getElementById('help_text2').style.display='none'" style="cursor:help"> [*]</span> : </td><td><input type=text name=w size=3 ></td>
