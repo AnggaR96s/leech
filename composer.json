@@ -30,6 +30,9 @@
         "ext-json": "*",
         "ext-openssl": "*",
         "ext-mbstring": "*",
-        "ext-exif": "*"
+        "ext-exif": "*",
+        "ext-PDO": "*",
+        "ext-pdo_mysql": "*",
+        "ext-mysqli": "*"
     }
 }
